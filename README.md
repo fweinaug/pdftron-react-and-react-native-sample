@@ -1,3 +1,8 @@
+- `npx expo run:android`: Could not find com.pdftron:pdftron:10.8.0
+- `npx react-native run-android`: 'compileDebugJavaWithJavac' task (current target is 17) and 'compileDebugKotlin' task (current target is 1.8) jvm target compatibility should be set to the same Java version.
+
+my assumption is that both errors are caused by the same issue, which is that the pdftron library is not being included in the android build.
+
 # PDFTron React and React Native PDF Viewer Sample
 
 This sample project uses Expo and shows how to create a PDF viewer app for both web and mobile with a single codebase between React and React Native.
